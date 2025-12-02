@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="image/logos.png">
+    <script src="https://kit.fontawesome.com/df60950eec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="image/logo__1_-removebg-preview.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <img src="image/done.png" class="fas" onclick="closemenu()">
+            </ul>
+            <img src="image/menu.png" class="fas" onclick="openmenu()">
+        </nav>
+        <div class="header-text">
+            <p>FULL STACK DEVELOPER</p>
+            <h1>Hi, I'm <span>Junaid</span> K<br> From kozhikode</h1>
+        </div>
+    </div>
+</div>
+<!----------------- about -->
+<div id="about">
+    <div class="container">
+   <div class="row">
+    <div class="about-col-1">
+        <img src="image/user.png">
+    </div>
+    <div class="about-col-2">
+        <h1 class="sub-title">About Me</h1>
+        <p>"I am an enthusiastic Software Trainee currently focused on mastering [Programming Language/Framework, e.g., Python and React]. 
+            My foundational academic background in Humanities
+             (10+2) has uniquely equipped me with strong critical thinking
+              and advanced communication skills—essential for understanding 
+              complex user problems and delivering clear documentation.
+             I am passionate about [Specific Area, e.g., problem-solving through code/UX design] and am actively seeking opportunities to contribute my analytical perspective to a dynamic development team."</p>
+        <div class="tab-title" >
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+        </div> 
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>FULL STACK DEVELOPER</span><br>A Full-Stack Developer is proficient in both Front-End and Back-End technologies. </li>
+                   <li><span>FRONT-END DEVELOPER</span><br>The User Interface (UI) and everything the user sees and interacts with (the "client-side").</li>
+                      <li><span>BACK-END DEVELOPER</span><br>The Server-Side Logic, databases, and application programming interfaces (APIs) that power the application behind the scenes.</li>
+            </ul>
+        </div>
+         <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2023-2025</span><br>Developer traniee</li>
+                   <li><span>2025-2026</span><br>bridgeon solutions Developer</li>
+                      <li><span>2026</span><br>one year amazon company</li>
+            </ul>
+        </div>
+         <div class="tab-contents" id="education">
+            <ul>
+                 <li><span>2023-2025</span><br>PLUS TWO HUMANITIES</li>
+                   <li><span>2025-2026</span><br>bridgeon solutions traniee Developer</li>
+                      <li><span>2026</span><br>soft skills achieve</li>
+            </ul>
+        </div>
+    </div>
+   </div>
+    </div>
+</div>
+<!-- ----------------srvices--------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+            <img src="image/icons1.png" alt="">
+                <h2>Front-End (Client-Side) Development</h2>
+                <p>This involves everything a user sees and interacts with in their browser or on their device.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <img  src="image/icons2.png">
+                <h2>Back-End Development (Server-Side)</h2>
+                <p>This is the "behind-the-scenes" logic, server management, and data handling that powers the application.</p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <img src="image/icons3.png">
+                <h2>Database Development & Management (Data Layer)</h2>
+                <p>This focuses on how data is stored, organized, and retrieved.</p>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- ---------------portfolio------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+         <div class="work-list">
+            <div class="work">
+                <img src="image/work-1.png">
+                <div class="layer">
+                    <h3>social media App</h3>
+                    <p>The app connects you yo the talented people around the world.
+                    Download it from play store</p>
+                    
+                    <a href="#"><img src="image/8000.png"></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-2.png">
+                <div class="layer">
+                    <h3>creates a website</h3>
+                    <p>i am creates trin ticket booking website.for easy trip going </p>
+                    
+                    <a href="#"><img src="image/icons2.11.png"></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/work-3.png">
+                <div class="layer">
+                    <h3>creates automatic data store</h3>
+                    <p>Automatically creating a new database instance or server when a new project starts.</p>
+                    <a href="#"><img src="image/icons2.11.png"></a>
+                </div>
+            </div>
+         </div>  
+         <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ------------------------contact------------------- -->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><img src="image/email.png">junaidntd@gmail.com</p>
+                <p><img src="image/contact.png">6238306221</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/juna__id__?igsh=MW5zaGIwemN0cXM2Yg=="><img src="image/intagram.png"></a>
+                    <a href="www.linkedin.com/in/junaidkm"><img src="image/linkdin.png"></a>
+                    <a href="https://github.com/junaidkm"><img src="image/github.png"></a>
+                </div>
+                <a href="image/my-cv.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="text" name="Name" placeholder="Your Name" required id="name">
+                    <input type="email" name="email" placeholder="Your Email" required class="email">
+                    <textarea name="Message" rows="6" placeholder="Your Message" class="message"></textarea>
+                    <button type="submit" class="btn btn2">Sumbit</button>
+                    <input type="hidden" name="access_key" value="faaddc0e-f17b-49dd-9e60-b55ac3896818">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright © junaidk website</p>
+    </div>
+ </div>
+
+
+<script src="script.js"></script>
+
+
+
+
+
+</body>
+</html>
