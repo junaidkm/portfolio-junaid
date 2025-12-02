@@ -15,7 +15,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(image/backgrund.png);
+    background-image: url(backgrund.png);
     background-size: cover;
     background-position: center;
 }
@@ -335,7 +335,7 @@ form btn2{
 
 @media only screen and (max-width: 600px){
        #header{
-        background-image: url(image/backgroundforphone.png);
+        background-image: url(backgroundforphone.png);
        } 
        .header-text{
         margin-top: 28%;
@@ -395,6 +395,7 @@ form btn2{
        
 
 }
+
 
 
 
